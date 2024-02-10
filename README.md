@@ -40,15 +40,13 @@ pip freeze > requirements.txt
 - Add a useful .gitignore to the root project folder with `.vsode/` and `.venv/` to prevent adding to repository
 
 - Git add and commit with a useful message (e.g. "initial commit") and push to GitHub.
-    - ```python
-    git add .
-    ```
-    - ```python
-    git commit -m "initial commit"
-    ```
-    - ```python
-    git push origin main
-    ```
+    
+    `git add .`
+   
+    `git commit -m "initial commit"`
+   
+    `git push origin main`
+   
 
 
 
