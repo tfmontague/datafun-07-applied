@@ -18,28 +18,37 @@ To follow
 
 - Clone the repository to your local machine.
 ```python
-`git clone https://www.your-repository.com`
+git clone https://www.your-repository.com
 ```
 - Create a Project Virtual Environment in the .venv folder.
 - Activate the Project Virtual Environment.
 ```python
-`py -m venv .venv
+py -m venv .venv
+```
+```python
 .\.venv\Scripts\Activate.ps1
 ```
+
 - Install dependencies into your `.venv` (shiny and pandas) and freeze into your requirements.txt.
 
 ```python
-`pip install shiny pandas`
+pip install shiny pandas
 ```
 ```python
-`pip freeze > requirements.txt`
+pip freeze > requirements.txt
 ```
 - Add a useful .gitignore to the root project folder with `.vsode/` and `.venv/` to prevent adding to repository
 
 - Git add and commit with a useful message (e.g. "initial commit") and push to GitHub.
-    - `git add .`
-    - `git commit -m "initial commit"`
-    - `git push origin main`
+    - ```python
+    git add .
+    ```
+    - ```python
+    git commit -m "initial commit"
+    ```
+    - ```python
+    git push origin main
+    ```
 
 
 
