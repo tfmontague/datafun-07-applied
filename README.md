@@ -44,6 +44,7 @@ pip install pyarrow
 pip install scipy
 pip install seaborn
 pip install matplotlib
+pip install scikit-learn
 ```
 ```python
 pip freeze > requirements.txt
@@ -65,16 +66,31 @@ pip freeze > requirements.txt
 - Add downloaded associated files and data to the `examples` subfolder
 
 ## Start the project
-### CC 7.4: Start a New Jupyter Notebook
+
 - Open `datafun-07-applied` root project repository in VS code
 - Open a terminal in your root project repository folder and run `git pull` to make sure you have the latest changes from GitHub
 - Create new notebook in root project repository named: `tmontague_ml.ipynb`
 - Add Markdown cell at the top of new notebook with Title, Author, and clickable link to project repository
 - Add Python cell with import statements
 ```python
-import pandas
-import seaborn
 import matplotlib
+from matplotlib import pyplot as plt
+import pandas
+import pyarrow
+import scipy
+from scipy import stats
+import seaborn as sns
+import sklearn
+from sklearn.model_selection import train_test_split
+import numpy as np
 ```
+### CC 7.5:  Chart a Straight Line (Part 1)
+- Complete section requirements per Project 7 requirements
+
+### CC 7.6:  Predict Avg High Temp in NYC in January (Part 2)
+- Complete section requirements per Project 7 requirements
+
+### CC 7.7: Predict Avg High Temp in NYC in January (Part 3)
+- Complete section requirements per Project 7 requirements
 
 
