@@ -36,12 +36,14 @@ py -m venv .venv
 .\.venv\Scripts\Activate.ps1
 ```
 
-- Install dependencies into your `.venv` (shiny and pandas) and freeze into your requirements.txt.
+- Install dependencies into your `.venv` and freeze into your requirements.txt.
 
 ```python
 pip install pandas
+pip install pyarrow
+pip install scipy
 pip install seaborn
-pip instal matplotlibl
+pip install matplotlib
 ```
 ```python
 pip freeze > requirements.txt
