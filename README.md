@@ -85,12 +85,22 @@ from sklearn.model_selection import train_test_split
 import numpy as np
 ```
 ### CC 7.5:  Chart a Straight Line (Part 1)
-- Complete section requirements per Project 7 requirements
+- Complete section per Project 7 requirements
 
 ### CC 7.6:  Predict Avg High Temp in NYC in January (Part 2)
-- Complete section requirements per Project 7 requirements
+- Complete section per Project 7 requirements for Object-Oriented Programming
+    1. Build a model
+    2. Make predictions
+    3. Visualize the model
 
 ### CC 7.7: Predict Avg High Temp in NYC in January (Part 3)
-- Complete section requirements per Project 7 requirements
+- Complete section per Project 7 requirements for Supervised Machine Learning
+    1. Build a model
+    2. Make predictions
+    3. Visualize the model
+
+### CC 7.8: Insights
+- Complete section per Project 7 requirements
+    1. Publish insights
 
 
